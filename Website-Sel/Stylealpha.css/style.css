@@ -1,0 +1,151 @@
+body {
+    font-family: 'Playfair Display', serif; 
+    background-color: #fef6f0;
+    color: #5a3c3c;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .navbar {
+    background: linear-gradient(90deg, #d4a373, #e9c46a);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+
+  .navbar-brand:hover {
+    color: #ffe0b2;
+  }
+
+  .nav-link {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 15px;
+  }
+
+  .nav-link:hover {
+    color: #d4a373;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  /* Sectie styling */
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #5a3c3c;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #6f4e37;
+    margin-bottom: 30px;
+  }
+
+  .btn-outline-success {
+    color: #d4a373;
+    border-color: #d4a373;
+    transition: all 0.3s ease;
+  }
+
+  .btn-outline-success:hover {
+    background-color: #d4a373;
+    color: #fff;
+  }
+
+  /* Border styling */
+  .border-pattern {
+    border: 2px solid #e9c46a;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background: linear-gradient(180deg, rgba(255, 239, 213, 0.6), rgba(255, 255, 255, 0.3));
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Review styling */
+  .reviews-section {
+    background-color: #fff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+  .review-card {
+    background-color: #f4f1e1;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .review-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  .review-card h5 {
+    font-size: 1.4rem;
+    color: #5a3c3c;
+  }
+
+  .review-card p {
+    font-size: 1rem;
+    color: #6f4e37;
+  }
+
+  /* Contact Form styling */
+  .contact-form {
+    background-color: #f4f1e1;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #d4a373;
+  }
+
+  .contact-form button {
+    background-color: #d4a373;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .contact-form button:hover {
+    background-color: #e9c46a;
+  }
