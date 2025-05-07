@@ -1,0 +1,202 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #333333; /* Donkere achtergrondkleur */
+  color: #e0e0e0; /* Lichte tekstkleur voor contrast */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #b89167; /* Thema kleur voor navbar */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #4d4030; /* Tekstkleur bij hover */
+  background-color: #ffe8c2; /* Hover achtergrondkleur */
+}
+
+/* Hero Sectie */
+.background-image {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+section h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #e0e0e0; /* Lichtgrijze kleur voor koppen */
+}
+
+section p {
+  font-size: 1.2rem;
+  color: #b0b0b0; /* Lichtere grijze kleur voor tekst */
+}
+
+/* Contactsectie */
+.contact-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.contact-form h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #e8d3b5;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #b89167; /* Thema kleur voor knop */
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e8d3b5;
+  color: #4d4030;
+}
+
+/* Knoppen */
+.btn-outline-success {
+  color: #b89167; /* Thema kleur voor knoppen */
+  border-color: #b89167;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-outline-success:hover {
+  background-color: #b89167;
+  color: #fff;
+}
+
+/* Reviews */
+.reviews-section {
+  background-color: #fff;
+  padding: 60px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.review-card {
+  background-color: #fefcf9; /* Lichte kleur voor review cards */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.review-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.review-card h5 {
+  font-size: 1.4rem;
+  color: #4d4030; /* Thema kleur voor review titels */
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  font-size: 1rem;
+  color: #5a5044;
+}
+
+/* Footer */
+footer {
+  background-color: #4d4030; /* Thema kleur voor footer */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #b89167;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsiviteit */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+
+  .background-image {
+    height: 300px;
+  }
+
+  section h1 {
+    font-size: 2.5rem;
+  }
+
+  section p {
+    font-size: 1rem;
+  }
+}
+
